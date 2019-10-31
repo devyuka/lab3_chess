@@ -15,7 +15,7 @@ public class Driver {
             piece.move();
         }
 
-        Piece p1 = new Pawn(true, true, new Queen(false));
+        Piece p1 = new Pawn(true, true, new Queen(true));
         Piece p2 = new Pawn(true, false, null);
         Piece p3 = new Pawn(false, false, null);
         Piece p4 = new Pawn(false, true, new Queen(false));
